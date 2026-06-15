@@ -38,10 +38,9 @@
 &kp LCTRL   &kp LEFT_ALT   &kp LEFT_COMMAND  &kp LEFT_SHIFT  &lt 4 SPACE  &kp LG(SPACE)     &lt 3 BACKSPACE    &kp ENTER  &lt 2 ESCAPE  &kp RIGHT_BRACKET
             >;
 
-            sensor-bindings = <
-                &inc_dec_kp RIGHT_ARROW LEFT_ARROW
-                &scroll_up_down
-            >;
+            sensor-bindings =
+                <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>,
+                <&scroll_up_down>;
         };
 
         MOUSE {
